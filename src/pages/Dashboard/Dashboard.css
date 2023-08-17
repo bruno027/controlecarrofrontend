@@ -1,0 +1,118 @@
+.app {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cards-container {
+    justify-content:center;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+
+
+  .grafico-container {
+    justify-content:space-around;
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+
+/* despesa.css */
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 60%;
+  max-width: 90%;
+  z-index: 999;
+}
+
+.popup h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.popup p {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.popup button {
+  margin-top: 20px;
+  background-color: #008000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #006400;
+}
+
+
+
+.filters {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.filter-item label {
+  margin-right: 5px;
+}
+
+.filter-item input,
+.filter-item select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para dar destaque ao loading */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.scrollable-table {
+  max-height: 200px; 
+  overflow-y: auto;
+}
+
+.grafico {
+  width: 40%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}

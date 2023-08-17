@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .link {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .link:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para o botão ativo */
+  .link.active {
+    background-color: #555;
+  }
+  
